@@ -19,8 +19,8 @@ ul {
 }
 
 .header {
-    background-color: #1F2937;
-    color: white;
+    background-color: lightgreen;
+    color: black;
     display: flex; 
     justify-content: space-around;
     /* gap: 500px; */
@@ -46,7 +46,7 @@ ul {
 .hero {
     display: flex;
     justify-content: center;
-    background-color: #1F2937;
+    background-color: lightgreen;
     height: 500px;
     gap: 100px;
 }
@@ -59,7 +59,7 @@ ul {
     justify-content: center;
     width: 500px;
     margin: 20px;
-    color: white;
+    color: black;
     gap: 10px;
 
 }
@@ -78,7 +78,7 @@ ul {
 }
 
 .hero button {
-    background-color: #3882F6;
+    background-color: rgb(218, 238, 144);
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -120,13 +120,14 @@ ul {
 }
 
 .card img {
-    border: solid #3882F6;
+    border: solid lightgreen;
     border-radius: 25px;
 }
 
 .card p {
     width: 50%;
     padding-left: 30px;
+    font-size: larger;
 }
 
 .quote {
@@ -153,7 +154,7 @@ ul {
 
 .contact {
     display: flex;
-    outline: solid;
+    
     height: 500px;
     justify-content: center;
     align-items: center;
@@ -163,7 +164,7 @@ ul {
 .contact-box {
     display: flex;
     flex-direction: column;
-    background-color: #3882F6;
+    background-color: lightgreen;
     height: 30%;
     width: 45%;
     border-radius: 25px;   
@@ -171,19 +172,28 @@ ul {
     align-items: center;
     justify-content: center;
     gap: 100px;
-    color: white;
+    color: black;
     
 }
 
 .contact-box button {
-    background-color: #3882F6;
-    color: white;
+    background-color: lightgreen;
+    color: black;
     outline: solid;
     outline-width: 1px; 
-    outline-color: white;
+    outline-color: black;
     border-radius: 2px;
     height: 30px;
     width: 90px;
     text-align: center;
 }
 
+footer {
+    background-color: lightgreen;
+    height:100px;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
