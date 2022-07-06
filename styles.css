@@ -4,8 +4,9 @@
 }
 
 .cowboy {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 5px;
 }
 
 li {
@@ -68,16 +69,121 @@ ul {
 .hero-info p {
     width: 400px;
     
-    
 }
 
 .hero img {
     width: 500px;
-    margin: 20px;
+    height: 300px;
+    align-self: center;
 }
 
 .hero button {
     background-color: #3882F6;
     padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+.info {
+    
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.info h2 {
+    margin-bottom: 100px;
+    font-size: 36px;
+}
+
+.info span {
+    color: lightgreen;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.card img {
+    border: solid #3882F6;
+    border-radius: 25px;
+}
+
+.card p {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.text {
+    width: 50%;
+    margin-bottom: 10px;;
+}
+
+.author {
+    font-size: 30px;
+    width: 40%;
+    margin-left: 25%;
+}
+
+.contact {
+    display: flex;
+    outline: solid;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    height: 30%;
+    width: 45%;
+    border-radius: 25px;   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+    
+}
+
+.contact-box button {
+    background-color: #3882F6;
+    color: white;
+    outline: solid;
+    outline-width: 1px; 
+    outline-color: white;
+    border-radius: 2px;
+    height: 30px;
+    width: 90px;
+    text-align: center;
 }
 
